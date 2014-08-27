@@ -12,7 +12,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 
-PROMPT='%F{blue}%n@%m%f%# '
+PROMPT='%(?.%F{blue}.%F{red})%n@%m%f%# '
 PROMPT2='> ' 
 RPROMPT='[%F{green}%~%f]'
 
