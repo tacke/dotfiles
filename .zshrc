@@ -12,8 +12,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 
-PROMPT='%F{green}%~%f %*
-%(?.%F{blue}.%F{red})%n@%m%f%# '
+PROMPT='%F{green}[%~ - %*]%f
+%(?.%F{blue}.%F{red})[%n@%m]%f%# '
 PROMPT2='> ' 
 
 setopt interactive_comments
