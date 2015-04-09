@@ -3,6 +3,7 @@ set number
 
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set hlsearch " 検索ハイライト有効化
 
 " 全角スペース・行末のスペース・タブの可視化
 if has("syntax")

@@ -26,6 +26,8 @@ alias mv='mv -i'
 alias la='ls -a'
 alias ll='ls -l'
 
+stty stop undef # ctrl-sを無効化
+
 case ${OSTYPE} in
 darwin*)
   alias ls='ls -FG'
